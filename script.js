@@ -52,7 +52,7 @@ function playerWins(){
         document.write(`<a class="end_action" href=".">Jogar Novamente</a></div>`);
     } else {
         document.write("<div class='end_screen'><h1>Parabéns, você acertou!!</h1>");
-        document.write(`<p>O número secreto era <strong>${secret_number}</strong>, você conseguiu em <strong>${12 - attempts}</strong> tentativas.</p>`);
+        document.write(`<p>O número secreto era <strong>${secret_number}</strong>, você conseguiu em <strong>${12 - attempts + 1}</strong> tentativas.</p>`);
         document.write(`<a class="end_action" href=".">Jogar Novamente</a></div>`);
     }
 }
