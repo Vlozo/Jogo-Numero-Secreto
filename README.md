@@ -6,7 +6,7 @@ de lógica de programação unificados para que demonstrem ao aluno os diversos 
 A ideia do jogo do número secreto é desafiar o jogador a adivinhar em até 12 tentativas um número entre 1 e 1000 gerado aleatoriamente pelo computador. O jogo 
 foi desenvolvido com JavaScript e pode ser executado diretamente no navegador.
 
-<h1 align="center"><a href="https://emanoelcampos.github.io/jogo-adivinhacao/" target= "_blank">JOGUE AQUI</a></h1>
+<h1 align="center"><a href="https://vlozo.github.io/Jogo-Numero-Secreto/" target= "_blank">JOGUE AQUI</a></h1>
 
 ## Página do Jogo
 
