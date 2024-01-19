@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Adivinhe o número</title>
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>ADIVINHE O NÚMERO!</h1>
+        <p id="description">Eu tenho um número secreto entre 1 e 1000, consegue adivinhar qual é? </p>
+        <div id="input_fields">
+            <p id="attempts_count">Você tem <strong>12</strong> tentativas.</p>
+            <input type="text" id="guess" autocomplete="off">
+            <input type="button" value="Adivinhar" id="guess_btn">
+        </div>
+        <div>
+            <span>
+                <ul id="guess_history">
+                </ul>
+            </span>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Este jogo foi criado por <a target="_blank" href="https://github.com/Vlozo">Vlozo</a> para o desafio do <a target="_blank" href="https://www.oracle.com/br/education/oracle-next-education/">Programa ONE - Oracle Next Education</a> + <a target="_blank" href="https://www.alura.com.br/">Alura</a></p>
+    </footer>
+    
+</body>
+</html>

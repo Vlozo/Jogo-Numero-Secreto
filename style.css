@@ -1,0 +1,272 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    background-color: #212a36;
+    color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color:#658cc7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #b23bd6;
+}
+
+main {
+    margin-top: 40%;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: #ecb724;
+    margin: 6px 0px 6px 0px;
+    line-height: 33px;
+    text-align: center;
+}
+
+#description {
+    margin-bottom: 8px;
+}
+
+#input_fields {
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+
+#attempts_count{
+    margin: 8px;
+}
+
+#guess {
+    font-size: larger;
+    height: 35px;
+    padding: 6px;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    width: 80%;
+    align-self: center;
+}
+
+#guess_btn {
+    height: 50px;
+    width: 50%;
+    padding: 10px;
+    
+    font-size: large;
+    font-weight: 600;
+    margin-left: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2b60af;
+    color: #e2e2e2;
+    align-self: center;
+    transition-duration: 0.4s;
+
+}
+
+#guess_btn:hover{
+    background-color: #e2e2e2;
+    color: #2b60af;
+}
+
+#guess_history {
+    margin: 20px 0px 120px 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    box-sizing: border-box;
+}
+
+#guess_history > li {
+    background-color: #3c4c77;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    list-style: none;
+}
+
+footer {
+    margin-top: 35px;
+    padding: 12px;
+    text-align: center;
+    background-color: #1c232e;
+    position: fixed;
+    bottom: 0;
+    font-size: 0.8em;
+    width: 100%;
+    align-self: center;
+}
+
+.end_screen {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.end_screen > h2 {
+    margin-top: 8px;
+}
+
+.end_screen > p {
+    margin-top: 12px;
+    line-height: 20px;
+}
+
+.end_action {
+    margin-top: 20px;
+    background-color: #3361a7;
+    padding: 12px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #e2e2e2;
+    transition-duration: 0.4s;
+}
+
+.end_action:visited {
+    color: #e2e2e2;
+}
+
+.end_action:hover {
+    background-color: #e2e2e2;
+    color: #3361a7;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    main {
+        font-size: 1.2em;
+        margin-top: 20%;
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #guess {
+        width: 64%;
+        align-self: center;
+    }
+
+    #guess_btn {
+        width: 23%;
+        align-self: center;
+    }
+
+    #guess_history > li {
+        width: 82%;
+        align-self: center;
+    }
+
+    footer{
+        font-size: 1em;
+        
+    } 
+
+    #end_screen {
+        font-size: 1.2em;
+    }
+
+}
+
+
+@media screen and (min-width: 992px) {
+
+    body {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    main {
+        margin-top: 15%;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    #description {
+        margin: 12px 0px 18px 0px;
+    }
+
+    #guess {
+        width: 58%;
+        align-self: center;
+    }
+
+    #guess_btn {
+        align-self: center;
+        width: 34%;
+    }
+
+    #guess_history{
+        margin:25px 0px 0px 0px;
+    }
+
+    #guess_history > li {
+        padding: 12px 4px;
+        box-sizing: border-box;
+        font-size: 1.3em;
+        width: 80%;
+        align-self: center;
+    }
+
+    footer{
+        font-size: 0.9em;
+        margin: 0px;
+        padding: 0px 0px;
+        
+    }
+
+    .end_screen > h2 {
+        font-size: 2em;
+        margin-top: 14px;
+    }
+
+    .end_screen > p {
+        margin-top: 18px;
+    }
+
+    .end_action {
+        margin-top: 24px;
+        width: 18%;
+        align-self: center;
+    }
+
+
+}
